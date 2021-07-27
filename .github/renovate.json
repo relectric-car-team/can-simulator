@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "ignorePaths": [
+    ".pre-commit-config.yaml",
+    ".python-version"
+  ],
+  "semanticCommits": "enabled",
+  "commitMessageSuffix": ":arrow_up:",
+  "semanticCommitType": "chore",
+  "masterIssue": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  }
+}
+
