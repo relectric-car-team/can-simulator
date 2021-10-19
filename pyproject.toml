@@ -15,7 +15,7 @@ flake8 = "^3.9.2"
 flake8-absolute-import = "^1.0"
 pre-commit = "^2.13.0"
 pytest = "^6.2.4"
-pytest-cov = "^2.12.1"
+pytest-cov = "^3.0.0"
 pytest-sugar = "^0.9.4"
 
 [build-system]
