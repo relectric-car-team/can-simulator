@@ -4,7 +4,7 @@ ci:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
 
@@ -17,17 +17,17 @@ repos:
         stages: [commit, push]
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.8.0
+    rev: 5.13.2
     hooks:
       - id: isort
         name: isort (python)
 
   - repo: https://github.com/psf/black
-    rev: 21.7b0
+    rev: 24.3.0
     hooks:
       - id: black
 
   - repo: https://github.com/PyCQA/flake8
-    rev: 3.9.1
+    rev: 7.0.0
     hooks:
       - id: flake8
